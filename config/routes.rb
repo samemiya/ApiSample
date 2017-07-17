@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   # rails new でアプリを作成したのち下記コマンドのみ挿入
   resources :blogs, only: [:index] #この行を追記
 
-  resources :poems, only: [:index] #この行を追記
+  # DIVE14_API基礎編２ 課題 で編集
+  resources :poems, only: [:index, :show] #この行を追記
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

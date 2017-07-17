@@ -46,3 +46,7 @@ group :development do
 end
 
 gem 'rails_12factor', group: :production
+
+# DIVE14_API基礎編２ 課題 で編集
+# APIの演習
+gem 'activeresource' #この行を追記する

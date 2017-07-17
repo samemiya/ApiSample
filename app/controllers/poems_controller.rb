@@ -6,4 +6,11 @@ class PoemsController < ApplicationController
     @poems = Poem.all
     render json: @poems
   end
+
+  # DIVE14_API基礎編２ 課題 で編集
+  def show
+    @poems = Poem.find(params[:id])
+    render json: @poems
+  end
+
 end
