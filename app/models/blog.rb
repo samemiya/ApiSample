@@ -2,6 +2,6 @@
 # class Blog < ActiveRecord::Base
 # end
 
-class Poem < ActiveResource::Base #ActiveRecord::Baseから変更する
+class Blog < ActiveResource::Base #ActiveRecord::Baseから変更する
   self.site = "https://supermarche-vin-79191.herokuapp.com"
 end
