@@ -3,5 +3,5 @@
 # end
 
 class Poem < ActiveResource::Base #ActiveRecord::Baseから変更する
-  self.site = "https://supermarche-vin-79191.herokuapp.com/"
+  self.site = "https://supermarche-vin-79191.herokuapp.com"
 end
