@@ -5,4 +5,11 @@ class BlogsController < ApplicationController
     @blogs = Blog.all
     render json: @blogs
   end
+  
+  # DIVE14_API基礎編２ 課題 で編集
+  def show
+    @blogs = Blog.find(params[:id])
+    render json: @blogs
+  end
+
 end
